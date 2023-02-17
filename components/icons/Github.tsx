@@ -8,8 +8,9 @@ const Github = () => {
       viewBox='0 0 25 25'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
+      className='h-5 w-5 xl:h-auto xl:w-auto'
     >
-      <g clip-path='url(#clip0_910_44)'>
+      <g clipPath='url(#clip0_910_44)'>
         <path
           fillRule='evenodd'
           clipRule='evenodd'

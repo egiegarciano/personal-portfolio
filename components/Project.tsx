@@ -1,7 +1,6 @@
 const Project = () => {
   return (
-    <div className='relative h-screen'>
-      <div className='gradient-02' />
+    <div className='relative'>
       <div>Project</div>
     </div>
   )

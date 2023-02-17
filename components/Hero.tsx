@@ -6,15 +6,17 @@ const Hero = () => {
   return (
     <div className='h-screen'>
       <NavBar />
-      <MediaBar />
-      <div className='relative flex justify-center'>
-        <div className='z-10 mt-[210px] flex w-1/2 flex-col space-y-4'>
-          <p className='ml-1 text-lg tracking-widest'>Hi, my name is</p>
-          <div className='space-y-4 text-6xl font-semibold lg:text-7xl'>
+      {/* <MediaBar /> */}
+      <div className='relative flex px-6 md:mt-[140px] md:px-[50px] lg:mt-0 lg:px-[100px] xl:justify-center xl:px-0'>
+        <div className='z-10 mt-7 flex flex-col space-y-5 lg:mt-[200px] lg:space-y-4  xl:w-1/2'>
+          <p className='ml-1 text-base tracking-widest md:text-lg'>
+            Hi, my name is
+          </p>
+          <div className='space-y-2 text-4xl font-semibold md:space-y-4 md:text-6xl lg:text-7xl'>
             <h1>Egie Garciano.</h1>
             <h1>I build things for the web.</h1>
           </div>
-          <p className='w-[540px] text-xl'>
+          <p className='text-lg md:w-[540px] md:text-xl'>
             A Fronted focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
             product.
@@ -26,7 +28,7 @@ const Hero = () => {
             PROJECTS
           </button>
         </div>
-        <BgAnimation className='absolute top-[11%] left-1/2 w-[700px]' />
+        <BgAnimation className='absolute top-[-11%] left-1/2 hidden w-[700px] md:top-[11%] md:block' />
       </div>
     </div>
   )

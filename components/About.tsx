@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className='relative mt-[90px] h-screen'>
-      <div className='gradient-03' />
+    <div className='relative'>
+      {/* <div className='gradient-03' /> */}
       <div>
         <h3 className='text-3xl'>ABOUT ME</h3>
         <p>

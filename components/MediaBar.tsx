@@ -3,7 +3,7 @@ import LinkedIn from './icons/LinkedIn'
 
 const MediaBar = () => {
   return (
-    <div className='fixed z-10 flex h-full cursor-pointer flex-col justify-center gap-5 pl-[50px]'>
+    <div className='z-10 flex cursor-pointer justify-start gap-5 lg:fixed lg:h-full lg:flex-col lg:pl-[40px]'>
       <a href='#'>
         <Github />
       </a>
