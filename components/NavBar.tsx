@@ -47,7 +47,7 @@ const NavBar = () => {
             <Link href='#home'>About</Link>
             <Link href='#home'>Skills</Link>
             <Link href='#home'>Projects</Link>
-            <Link href='#home' className='rounded-sm border py-2 px-3'>
+            <Link href='#home' className='rounded-sm border py-2 px-4'>
               Resume
             </Link>
           </div>

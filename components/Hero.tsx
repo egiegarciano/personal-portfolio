@@ -1,14 +1,12 @@
 import NavBar from './NavBar'
 import BgAnimation from './BgAnimation'
-import MediaBar from './MediaBar'
 
 const Hero = () => {
   return (
-    <div className='h-screen'>
+    <section className='h-screen'>
       <NavBar />
-      {/* <MediaBar /> */}
-      <div className='relative flex px-6 md:mt-[140px] md:px-[50px] lg:mt-0 lg:px-[100px] xl:justify-center xl:px-0'>
-        <div className='z-10 mt-7 flex flex-col space-y-5 lg:mt-[200px] lg:space-y-4  xl:w-1/2'>
+      <div className='relative flex px-6 md:mt-[140px] md:px-[50px] lg:mt-0 lg:px-[100px] xl:mx-[400px] xl:px-0'>
+        <div className='z-10 mt-7 flex flex-col space-y-5 lg:mt-[200px] lg:space-y-4'>
           <p className='ml-1 text-base tracking-widest md:text-lg'>
             Hi, my name is
           </p>
@@ -23,14 +21,14 @@ const Hero = () => {
           </p>
           <button
             type='button'
-            className='w-[175px] cursor-pointer rounded-full bg-gradient-to-r from-[#00DBD8] to-[#B133FF] py-4 tracking-widest'
+            className='w-[175px] cursor-pointer rounded-full bg-gradient-to-r from-[#00DBD8] to-[#B133FF] py-3 tracking-widest md:py-4'
           >
             PROJECTS
           </button>
         </div>
         <BgAnimation className='absolute top-[-11%] left-1/2 hidden w-[700px] md:top-[11%] md:block' />
       </div>
-    </div>
+    </section>
   )
 }
 
