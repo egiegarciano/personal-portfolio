@@ -2,8 +2,10 @@ import React from 'react'
 
 const GetInTouch = () => {
   return (
-    <section className='mx-6 pb-12 text-center md:mx-[50px] xl:mx-[400px]'>
-      <h2 className='text-[40px] font-semibold md:text-5xl'>Get In Touch</h2>
+    <section className='mx-6 py-12 text-center md:mx-[50px] md:py-20 xl:mx-[400px]'>
+      <h2 className='text-[40px] font-semibold tracking-wider md:text-5xl'>
+        Get In Touch
+      </h2>
       <p className='mt-4 text-[15px] md:px-6 lg:px-36 xl:px-56'>
         Although I’m not currently looking for any new opportunities, my inbox
         is always open. Whether you have a question or just want to say hi, I’ll

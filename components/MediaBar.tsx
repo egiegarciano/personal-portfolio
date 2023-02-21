@@ -1,5 +1,6 @@
 import Github from './icons/Github'
 import LinkedIn from './icons/LinkedIn'
+import Twitter from './icons/Twitter'
 
 const MediaBar = () => {
   return (
@@ -9,6 +10,9 @@ const MediaBar = () => {
       </a>
       <a href='#'>
         <LinkedIn />
+      </a>
+      <a href='#'>
+        <Twitter />
       </a>
     </div>
   )

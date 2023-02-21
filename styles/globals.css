@@ -102,3 +102,9 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+@layer components {
+  .section-divider {
+    @apply mx-auto h-1 w-8 rounded-[10px] bg-gradient-to-r from-[#8F60D5] to-[#2EA7C8] md:w-10;
+  }
+}
