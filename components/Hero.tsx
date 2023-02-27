@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className='h-screen'>
       <NavBar />
-      <div className='relative flex px-6 md:mt-[140px] md:px-[50px] lg:mt-0 lg:px-[100px] xl:mx-[400px] xl:px-0'>
+      <div className='relative mx-6 flex md:mx-[50px] md:mt-[140px] lg:mt-0 xl:mx-auto xl:w-[1033px]'>
         <div className='z-10 mt-7 flex flex-col space-y-5 lg:mt-[200px] lg:space-y-4'>
           <p className='ml-1 text-base tracking-widest md:text-lg'>
             Hi, my name is
