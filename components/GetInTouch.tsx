@@ -1,5 +1,3 @@
-import React from 'react'
-
 const GetInTouch = () => {
   return (
     <section className='relative mx-6 py-12 text-center md:mx-[50px] md:py-20 lg:py-36 xl:mx-auto xl:w-[1033px]'>

@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
           <button
             type='button'
-            className='w-[175px] cursor-pointer rounded-full bg-gradient-to-r from-[#00DBD8] to-[#B133FF] py-3 tracking-widest md:py-4'
+            className='w-[175px] cursor-pointer rounded-full bg-gradient-to-r from-[#00DBD8] to-[#B133FF] py-3 font-bold tracking-widest md:py-4'
           >
             PROJECTS
           </button>
