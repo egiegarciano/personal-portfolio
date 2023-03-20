@@ -6,7 +6,10 @@ import { projectsDummyData } from '../constants/projectsDummyData'
 
 const Projects = () => {
   return (
-    <section className='relative mx-6 py-12 md:mx-[50px] md:py-20 lg:mb-10 xl:mx-auto xl:w-[1033px]'>
+    <section
+      id='projects'
+      className='relative mx-6 py-12 md:mx-[50px] md:py-20 lg:mb-10 xl:mx-auto xl:w-[1033px]'
+    >
       <div className='gradient-03 left-[-50%] md:left-[-40%]' />
       <h2 className='mb-10 text-center text-4xl font-semibold tracking-wider md:text-5xl'>
         Projects

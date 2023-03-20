@@ -107,6 +107,6 @@
   }
 
   .contact-me__button {
-    @apply relative z-10 mt-16 rounded-md border-2 px-4 py-3 text-base font-semibold md:text-lg;
+    @apply relative z-10 mt-16 inline-block rounded-md border-2 px-4 py-3 text-base font-semibold md:text-lg;
   }
 }

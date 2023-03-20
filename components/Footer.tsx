@@ -8,14 +8,14 @@ const Footer = () => {
           <p className='text-lg font-semibold xl:text-[22px]'>Social</p>
           <MediaBar />
         </div>
-        <div className='space-y-4 py-6 md:w-[448px]'>
+        <div className='space-y-4 py-6 md:w-[520px]'>
           <p className='text-base font-semibold xl:text-[22px]'>
             Egie Garciano
           </p>
           <p className='text-[15px] md:text-base'>
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            A versatile web developer who works on the frontend and backend of
+            websites, ensuring the overall success of the product. Interested in
+            learning new technologies and taking on new challenges.
           </p>
         </div>
       </div>
