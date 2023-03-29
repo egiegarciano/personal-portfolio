@@ -1,12 +1,10 @@
 import Link from 'next/link'
 
-import NavBar from './NavBar'
 import BgAnimation from './BgAnimation'
 
 const Hero = () => {
   return (
-    <section className='h-screen'>
-      <NavBar />
+    <section id='home' className='h-screen'>
       <div className='relative mx-6 flex md:mx-[50px] md:mt-[140px] lg:mt-0 xl:mx-auto xl:w-[1033px]'>
         <div className='z-10 mt-7 flex flex-col space-y-5 lg:mt-[190px] lg:space-y-4'>
           <p className='ml-1 text-base tracking-widest md:text-lg'>

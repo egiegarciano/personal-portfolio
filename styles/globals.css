@@ -20,15 +20,6 @@
   filter: blur(125px);
 }
 
-.hero-gradient {
-  background: linear-gradient(
-    97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
-  );
-}
-
 .gradient-02 {
   position: absolute;
   width: 200px;
@@ -40,14 +31,6 @@
   filter: blur(190px);
 }
 
-.glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
 .gradient-03 {
   position: absolute;
   width: 404px;
@@ -55,7 +38,7 @@
   top: -4%;
 
   background: rgba(149, 66, 232, 0.35);
-  filter: blur(175px);
+  filter: blur(250px);
   transform: rotate(-114.2deg);
 }
 
@@ -67,38 +50,19 @@
   right: -10%;
 
   background: rgba(45, 72, 152, 0.75);
-  filter: blur(200px);
+  filter: blur(250px);
   transform: rotate(-53.13deg);
 }
 
 .gradient-05 {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
-
-.feedback-gradient {
   position: absolute;
-  width: 200px;
-  height: 316px;
-  left: 0px;
-  top: 0px;
+  width: 400px;
+  height: 400px;
+  right: -50%;
+  bottom: 30%;
 
-  background: #8d39a3;
-  filter: blur(175px);
-}
-
-.footer-gradient {
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  left: 37%;
-  bottom: 0;
-
-  background: #65c4fa;
-  filter: blur(150px);
+  background: hsl(221deg 73% 70%) 74%;
+  filter: blur(360px);
 }
 
 @layer components {
@@ -106,7 +70,11 @@
     @apply mx-auto h-1 w-8 rounded-[10px] bg-gradient-to-r from-[#8F60D5] to-[#2EA7C8] md:w-10;
   }
 
-  .contact-me__button {
-    @apply relative z-10 mt-16 inline-block rounded-md border-2 px-4 py-3 text-base font-semibold md:text-lg;
+  .contact-button-wrapper {
+    @apply relative z-10 mt-16 inline-block rounded-md bg-gradient-to-r from-[#8F60D5] to-[#2EA7C8] p-[2px];
+  }
+
+  .contact-button-text {
+    @apply rounded-md bg-[#315F6C] px-5 py-3 text-base font-semibold md:text-lg;
   }
 }

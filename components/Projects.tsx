@@ -10,14 +10,14 @@ const Projects = () => {
       id='projects'
       className='relative mx-6 py-12 md:mx-[50px] md:py-20 lg:mb-10 xl:mx-auto xl:w-[1033px]'
     >
-      <div className='gradient-03 left-[-50%] md:left-[-40%]' />
-      <h2 className='mb-10 text-center text-4xl font-semibold tracking-wider md:text-5xl'>
+      <div className='gradient-03 left-[-50%] md:left-[-70%] xl:top-0' />
+      <h2 className='md:text-5x relative z-10 mb-10 text-center text-4xl font-semibold tracking-wider'>
         Projects
       </h2>
-      <div className='space-y-9 lg:space-y-20'>
+      <div className='relative z-10 space-y-9 lg:space-y-20'>
         {projectsDummyData.map((project, idx) => (
           <div key={idx}>
-            <hr className='mb-9 lg:mb-20' />
+            <hr className='mb-9 border-gray-600 lg:mb-20' />
             <div className='md:flex md:justify-between'>
               <div className='relative flex items-center justify-center'>
                 <Image
@@ -48,6 +48,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <div className='gradient-05 lg:!h-[500px] lg:!w-[500px]' />
     </section>
   )
 }

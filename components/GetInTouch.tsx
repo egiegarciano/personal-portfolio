@@ -19,9 +19,9 @@ const GetInTouch = () => {
         href='mailto:egiegarciano14@gmail.com'
         target='_blank'
         rel='noreferrer'
-        className='contact-me__button'
+        className='contact-button-wrapper'
       >
-        Contact me
+        <p className='contact-button-text'>Contact me</p>
       </Link>
     </section>
   )
