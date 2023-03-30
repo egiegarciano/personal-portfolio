@@ -6,6 +6,10 @@
   font-family: 'Eudoxus Sans', sans-serif;
 }
 
+body {
+  background-color: #1a232e;
+}
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,

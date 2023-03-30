@@ -53,7 +53,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`sticky z-20 bg-[#1A232E] text-white shadow-xl lg:overflow-hidden  ${
+      className={`sticky z-20 bg-[#1A232E] text-white shadow-xl lg:overflow-hidden ${
         isVisible && 'top-0'
       }`}
     >
@@ -66,7 +66,7 @@ const NavBar = () => {
           {isOpen ? <XMark /> : <Bars />}
         </div>
         <div
-          className={`absolute inset-0 z-20 h-screen justify-end bg-[#0000002a] lg:h-auto lg:space-x-10 lg:bg-transparent ${
+          className={`absolute inset-0 z-20 h-screen justify-end bg-[#0808083b] lg:h-auto lg:space-x-10 lg:bg-transparent ${
             isOpen ? 'flex' : 'hidden lg:flex'
           }`}
         >
@@ -76,7 +76,7 @@ const NavBar = () => {
             <Link href='#projects'>Projects</Link>
             <Link href='#contact'>Contact Me</Link>
             <Link
-              href='#home'
+              href='#'
               className='rounded-md bg-gradient-to-r from-[#8F60D5] to-[#2EA7C8] p-[2px]'
             >
               <div className='rounded-md bg-[#1A232E] py-2 px-4'>Resume</div>

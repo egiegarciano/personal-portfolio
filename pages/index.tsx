@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='min-h-screen overflow-hidden bg-[#1A232E] text-white'>
+    <div className='min-h-screen overflow-hidden text-white'>
       <Hero />
       <div className='section-divider' />
       <AboutMe />
