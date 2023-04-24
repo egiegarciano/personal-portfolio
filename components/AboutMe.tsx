@@ -59,6 +59,7 @@ const AboutMe = () => {
                   alt='icons'
                   src={item.src}
                   quality={60}
+                  priority
                   className='h-9 w-9 rounded-full object-cover md:h-10 md:w-10'
                 />
                 <span className='absolute inset-0 flex items-center justify-center rounded-full bg-gray-300 font-extrabold text-black opacity-0 transition-all duration-300 ease-in-out group-hover:opacity-90'>

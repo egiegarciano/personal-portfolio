@@ -76,6 +76,7 @@ const NavBar = () => {
             <Link href='#projects'>Projects</Link>
             <Link href='#contact'>Contact Me</Link>
             <Link
+              // add link here for the resume
               href='#'
               className='rounded-md bg-gradient-to-r from-[#8F60D5] to-[#2EA7C8] p-[2px]'
             >
