@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import ArrowTopRightSquare from './icons/ArrowTopRightSquare'
 import GithubIcon from './icons/Github'
-import { projectsDummyData } from '../constants/projectsDummyData'
+import { projectsData } from '../constants/projectsData'
 
 const Projects = () => {
   return (
@@ -15,7 +15,7 @@ const Projects = () => {
         Projects
       </h2>
       <div className='relative z-10 space-y-9 lg:space-y-20'>
-        {projectsDummyData.map((project, idx) => (
+        {projectsData.map((project, idx) => (
           <div key={idx}>
             <hr className='mb-9 border-gray-600 lg:mb-20' />
             <div className='md:flex md:justify-between'>
@@ -40,8 +40,20 @@ const Projects = () => {
                   ))}
                 </ul>
                 <div className='flex items-center space-x-4 pt-4'>
-                  <GithubIcon />
-                  <ArrowTopRightSquare />
+                  <a
+                    href='https://github.com/egiegarciano/todo-next_frontend'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <GithubIcon />
+                  </a>
+                  <a
+                    href='https://todo-next-frontend.vercel.app'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <ArrowTopRightSquare />
+                  </a>
                 </div>
               </div>
             </div>
